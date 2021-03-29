@@ -1,0 +1,12 @@
+@charset "UTF-8";
+header{
+    text-align: center;
+    font-size: xx-large;
+}
+label{
+    
+    font-size: x-large;   
+}
+#add{
+    background-color:pink;
+}
