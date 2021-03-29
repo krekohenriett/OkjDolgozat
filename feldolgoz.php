@@ -6,7 +6,7 @@ $mySql = new MySqlDB();
 $adat=$_GET['todo'];
 
 $adatok = array();
-$result = $mySql->lekerdez("adatok", "nev like '%".$adat."%'");
+$result = $mySql->lekerdez("adatok", "todo like '%".$adat."%'");
 
 
 if ($result->num_rows > 0) {
@@ -19,5 +19,5 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-//print_r( $telefonkonyvem);
+
 

@@ -33,7 +33,15 @@ and open the template in the editor.
         </main>
         
         <?php
-        
-        ?>
+//        require './MySqlDB.php';
+//$mySql = new MySqlDB();
+//$todo = $_POST["todo"];
+//$datum = $_POST["datum"];
+//$allapot = $_POST["allapot"];
+//
+//$mySql->ujRekord("okjdolg", "(todo,datum,allapot)", "('$todo','$datum','$allapot')");
+////print_r($_POST);
+//echo json_encode($_POST);
+//        ?>
     </body>
 </html>
