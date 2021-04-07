@@ -7,8 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+
         <link href="stilus.css" rel="stylesheet" type="text/css"/>
+        
         <script src="feldolgoz.js" type="text/javascript"></script>
         <title>Krekó Henriett</title>
     </head>
@@ -16,7 +20,7 @@ and open the template in the editor.
                        
         <header>Teendők</header>
           <main>
-            <section>
+            <article>
                 <form class="urlap">
                     <label for="todo">TODO lista:</label><br>
                     <input type="text" id="todo" name="todo">
@@ -26,11 +30,14 @@ and open the template in the editor.
 <!--                    <div id="legordulo">                        
                     </div>-->
                 </form>
+                <ul id="lista"></ul>
+                <div class="terulet"></div>
 <!--                <article>
                     <p id="javaslat"></p>
                 </article>-->
-            </section>
+            </article>
         </main>
+        <footer>Krekó Henriett</footer>
         
         <?php
 //        require './MySqlDB.php';

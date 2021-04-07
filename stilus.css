@@ -4,9 +4,29 @@ header{
     font-size: xx-large;
 }
 label{
-    
+
     font-size: x-large;   
 }
 #add{
     background-color:pink;
+}
+main{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+article{
+    background: cadetblue;
+}
+footer{
+    text-align: center;
+}
+
+ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+}
+img{
+    width: 26%;
 }

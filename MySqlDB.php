@@ -16,13 +16,15 @@ class MySqlDB {
         $this->db_jelszo = "";
         $this->db_nev = "okjdolg";
         $this->kapcsolat();
-    }
-
-//        $this->db_szerver = "ABtanulo23szf1a";
+        
+//        $this->db_szerver = "tanulo23.szf1a.oktatas.szamalk-szalezi.hu/phpmyadmin";
 //        $this->db_felhnev = "c1_tanulo23szf1a";
 //        $this->db_jelszo = "_tanulo23szf1a";
-//        $this->db_nev = "telefonkonyv2";
+//        $this->db_nev = "c1ABtanulo23szf1a";
 //        $this->kapcsolat();
+    }
+
+
     public function kapcsolat() {
         $this->kapcs = new mysqli($this->db_szerver, $this->db_felhnev, $this->db_jelszo, $this->db_nev);
         $this->kapcs->set_charset('utf8');
